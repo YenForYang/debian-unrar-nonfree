@@ -1,0 +1,185 @@
+Format: 1.0
+Source: unrar-nonfree
+Binary: unrar libunrar5 libunrar-dev
+Architecture: amd64
+Version: 1:5.6.6-2
+Checksums-Md5:
+ d1445bcd8ecc35269ec1556e668309e0 1424224 libunrar-dev_5.6.6-2_amd64.deb
+ c53b4bf52e82a24b228875d28d068dd8 174716 libunrar5_5.6.6-2_amd64.deb
+ 3403d573f9c9a038fc42c443bd7b0b51 168676 unrar_5.6.6-2_amd64.deb
+Checksums-Sha1:
+ 57066ec4a0eaa3705c900a52b76d534feff78dc3 1424224 libunrar-dev_5.6.6-2_amd64.deb
+ ce13461d572f15abe281085690e59410ffab5008 174716 libunrar5_5.6.6-2_amd64.deb
+ 0454a76b397d297807597f754680fc5e0a0351be 168676 unrar_5.6.6-2_amd64.deb
+Checksums-Sha256:
+ 193556f5c0cd20d304342be05d673a4e5f5905d4f9daeb7d8cc7950d2fe86c8b 1424224 libunrar-dev_5.6.6-2_amd64.deb
+ 174342933c0f55a27f915e50d7f1a2b9057c0755fe7fd69b6770453118a9fe46 174716 libunrar5_5.6.6-2_amd64.deb
+ 6f5d155830d351c8b2d4e28fb12851033d6936115b8fb01dc35a608a444b0888 168676 unrar_5.6.6-2_amd64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Sat, 25 May 2019 09:10:29 +0200
+Installed-Build-Depends:
+ autoconf (= 2.69-11),
+ automake (= 1:1.16.1-4),
+ autopoint (= 0.19.8.1-2),
+ autotools-dev (= 20180224.1),
+ base-files (= 10.1),
+ base-passwd (= 3.5.45),
+ bash (= 4.4.18-3.1),
+ binutils (= 2.31.1-11),
+ binutils-common (= 2.31.1-11),
+ binutils-x86-64-linux-gnu (= 2.31.1-11),
+ bsdmainutils (= 11.1.2+b1),
+ bsdutils (= 1:2.33-0.2),
+ build-essential (= 12.5),
+ bzip2 (= 1.0.6-9),
+ coreutils (= 8.30-1),
+ cpp (= 4:8.2.0-2),
+ cpp-7 (= 7.4.0-2),
+ cpp-8 (= 8.2.0-13),
+ dash (= 0.5.10.2-4),
+ debconf (= 1.5.69),
+ debhelper (= 12),
+ debianutils (= 4.8.6),
+ dh-autoreconf (= 19),
+ dh-strip-nondeterminism (= 1.0.0-1),
+ diffutils (= 1:3.6-1),
+ dpkg (= 1.19.2),
+ dpkg-dev (= 1.19.2),
+ dwz (= 0.12-3),
+ fdisk (= 2.33-0.2),
+ file (= 1:5.35-1),
+ findutils (= 4.6.0+git+20181018-1),
+ g++ (= 4:8.2.0-2),
+ g++-8 (= 8.2.0-13),
+ gawk (= 1:4.2.1+dfsg-1),
+ gcc (= 4:8.2.0-2),
+ gcc-7 (= 7.4.0-2),
+ gcc-7-base (= 7.4.0-2),
+ gcc-8 (= 8.2.0-13),
+ gcc-8-base (= 8.2.0-13),
+ gettext (= 0.19.8.1-2),
+ gettext-base (= 0.19.8.1-2),
+ grep (= 3.1-2),
+ groff-base (= 1.22.4-1),
+ gzip (= 1.9-2),
+ hostname (= 3.21),
+ init-system-helpers (= 1.56+nmu1),
+ install-info (= 6.5.0.dfsg.1-4),
+ intel-comp-ps-ss-bec-19.0.1-144 (= 19.0.1-144),
+ intltool-debian (= 0.35.0+20060710.4),
+ libacl1 (= 2.2.52-3+b1),
+ libarchive-zip-perl (= 1.64-1),
+ libasan4 (= 7.4.0-2),
+ libasan5 (= 8.2.0-13),
+ libatomic1 (= 8.2.0-13),
+ libattr1 (= 1:2.4.47-2+b2),
+ libaudit-common (= 1:2.8.4-3),
+ libaudit1 (= 1:2.8.4-3),
+ libbinutils (= 2.31.1-11),
+ libblkid1 (= 2.33-0.2),
+ libbsd0 (= 0.9.1-1),
+ libbz2-1.0 (= 1.0.6-9),
+ libc-bin (= 2.28-2),
+ libc-dev-bin (= 2.28-2),
+ libc6 (= 2.28-2),
+ libc6-dev (= 2.28-2),
+ libcap-ng0 (= 0.7.9-1+b1),
+ libcc1-0 (= 8.2.0-13),
+ libcilkrts5 (= 7.4.0-2),
+ libcroco3 (= 0.6.12-3),
+ libdb5.3 (= 5.3.28+dfsg1-0.2),
+ libdebconfclient0 (= 0.246),
+ libdpkg-perl (= 1.19.2),
+ libelf1 (= 0.175-1),
+ libfdisk1 (= 2.33-0.2),
+ libffi6 (= 3.2.1-9),
+ libfile-stripnondeterminism-perl (= 1.0.0-1),
+ libgcc-7-dev (= 7.4.0-2),
+ libgcc-8-dev (= 8.2.0-13),
+ libgcc1 (= 1:8.2.0-13),
+ libgcrypt20 (= 1.8.4-4),
+ libgdbm-compat4 (= 1.18.1-2),
+ libgdbm6 (= 1.18.1-2),
+ libglib2.0-0 (= 2.58.2-3),
+ libgmp10 (= 2:6.1.2+dfsg-4),
+ libgomp1 (= 8.2.0-13),
+ libgpg-error0 (= 1.33-3),
+ libicu63 (= 63.1-5),
+ libisl19 (= 0.20-2),
+ libitm1 (= 8.2.0-13),
+ liblsan0 (= 8.2.0-13),
+ liblz4-1 (= 1.8.2-1),
+ liblzma5 (= 5.2.4-1),
+ libmagic-mgc (= 1:5.35-1),
+ libmagic1 (= 1:5.35-1),
+ libmount1 (= 2.33-0.2),
+ libmpc3 (= 1.1.0-1),
+ libmpfr6 (= 4.0.1-2),
+ libmpx2 (= 8.2.0-13),
+ libncursesw6 (= 6.1+20181013-1),
+ libpam-modules (= 1.1.8-3.8),
+ libpam-modules-bin (= 1.1.8-3.8),
+ libpam-runtime (= 1.1.8-3.8),
+ libpam0g (= 1.1.8-3.8),
+ libpcre3 (= 2:8.39-11),
+ libperl5.28 (= 5.28.1-3),
+ libpipeline1 (= 1.5.0-2),
+ libquadmath0 (= 8.2.0-13),
+ libreadline7 (= 7.0-5),
+ libseccomp2 (= 2.3.3-4),
+ libselinux1 (= 2.8-1+b1),
+ libsigsegv2 (= 2.12-2),
+ libsmartcols1 (= 2.33-0.2),
+ libstdc++-8-dev (= 8.2.0-13),
+ libstdc++6 (= 8.2.0-13),
+ libsystemd0 (= 240-2),
+ libtinfo5 (= 6.1+20181013-1),
+ libtinfo6 (= 6.1+20181013-1),
+ libtool (= 2.4.6-6),
+ libtsan0 (= 8.2.0-13),
+ libubsan0 (= 7.4.0-2),
+ libubsan1 (= 8.2.0-13),
+ libuchardet0 (= 0.0.6-3),
+ libudev1 (= 240-2),
+ libunistring0 (= 0.9.6+really0.9.3-0.1),
+ libuuid1 (= 2.33-0.2),
+ libxml2 (= 2.9.8-1),
+ linux-libc-dev (= 4.19.12-1),
+ login (= 1:4.5-1.1),
+ m4 (= 1.4.18-2),
+ make (= 4.2.1-1.2),
+ man-db (= 2.8.4-3),
+ mawk (= 1.3.3-17),
+ ncurses-base (= 6.1+20181013-1),
+ ncurses-bin (= 6.1+20181013-1),
+ patch (= 2.7.6-3),
+ perl (= 5.28.1-3),
+ perl-base (= 5.28.1-3),
+ perl-modules-5.28 (= 5.28.1-3),
+ po-debconf (= 1.0.21),
+ readline-common (= 7.0-5),
+ sed (= 4.7-1),
+ sensible-utils (= 0.0.12),
+ sysvinit-utils (= 2.93-2),
+ tar (= 1.30+dfsg-3),
+ util-linux (= 2.33-0.2),
+ xz-utils (= 5.2.4-1),
+ zlib1g (= 1:1.2.11.dfsg-1)
+Environment:
+ AR="xiar.pl"
+ CC="icc.pl"
+ CPP="icc.pl -E"
+ CXX="icpc.pl"
+ DEB_BUILD_OPTIONS="nocheck nodoc parallel=5"
+ DEB_BUILD_PROFILES="nobiarch nocheck nodoc"
+ DEB_CFLAGS_SET="-g -O2 -fdebug-prefix-map=/tmp/unrar/unrar=. -Wformat -march=native -pipe -Wformat-security"
+ DEB_CXXFLAGS_SET="-g -O2 -fdebug-prefix-map=/tmp/unrar/unrar=. -Wformat -march=native -pipe -Wformat-security"
+ DEB_FCFLAGS_SET="-g -O2 -fdebug-prefix-map=/tmp/unrar/unrar=. -fstack-protector-strong -march=native -pipe -fstack-security-check"
+ DEB_FFLAGS_SET="-g -O2 -fdebug-prefix-map=/tmp/unrar/unrar=. -fstack-protector-strong -march=native -pipe -fstack-security-check"
+ DEB_LDFLAGS_SET=""
+ DPKG_GENSYMBOLS_CHECK_LEVEL="1"
+ LANG="en_US.UTF-8"
+ LC_CTYPE="en_US.UTF-8"
+ MAKEFLAGS="-l 8"
+ SOURCE_DATE_EPOCH="1551572020"
